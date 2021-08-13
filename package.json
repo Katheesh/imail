@@ -1,0 +1,22 @@
+{
+  "name": "imail",
+  "version": "1.0.2",
+  "description": "Sending Mails Using CLI",
+  "main": "index.js",
+  "bin": {
+    "imail": "index.js"
+  },
+  "author": "katheeskumar [https://github.com/katheesh]",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sendmail",
+    "climail"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^8.0.0"
+  }
+}
